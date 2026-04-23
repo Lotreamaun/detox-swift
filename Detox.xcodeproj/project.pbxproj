@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F826D9142C06E147001702E0 /* FeaturesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F826D9132C06E147001702E0 /* FeaturesPage.swift */; };
+		F826D9162C06E199001702E0 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F826D9152C06E199001702E0 /* FeatureCard.swift */; };
+		F83689C92BBB1B8000DE64F5 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83689C82BBB1B8000DE64F5 /* TextView.swift */; };
+		F85B3BFA2BCFE148001A1EE0 /* NoteRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85B3BF92BCFE148001A1EE0 /* NoteRowView.swift */; };
+		F85B3BFC2BD0356C001A1EE0 /* NotesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85B3BFB2BD0356C001A1EE0 /* NotesData.swift */; };
+		F895392B2C043CD200F6FEB6 /* WelcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F895392A2C043CD100F6FEB6 /* WelcomePage.swift */; };
+		F8A6B6CF2BCC84650029A23C /* NoteRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A6B6CE2BCC84650029A23C /* NoteRow.swift */; };
+		F8BA19282F9A2035000C7A65 /* MyNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BA19272F9A2035000C7A65 /* MyNote.swift */; };
+		F8BA192A2F9A5576000C7A65 /* PLAN.md in Resources */ = {isa = PBXBuildFile; fileRef = F8BA19292F9A5576000C7A65 /* PLAN.md */; };
+		F8C6F81C2BD9152D003EE597 /* NoteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F81B2BD9152D003EE597 /* NoteList.swift */; };
+		F8CC34B82BB47A6F00F25C73 /* DetoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CC34B72BB47A6F00F25C73 /* DetoxApp.swift */; };
+		F8CC34BA2BB47A6F00F25C73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CC34B92BB47A6F00F25C73 /* ContentView.swift */; };
+		F8CC34BC2BB47A7100F25C73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8CC34BB2BB47A7100F25C73 /* Assets.xcassets */; };
+		F8CC34BF2BB47A7100F25C73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8CC34BE2BB47A7100F25C73 /* Preview Assets.xcassets */; };
+		F8CC34C92BB47A7100F25C73 /* DetoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CC34C82BB47A7100F25C73 /* DetoxTests.swift */; };
+		F8CC34D32BB47A7100F25C73 /* DetoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CC34D22BB47A7100F25C73 /* DetoxUITests.swift */; };
+		F8CC34D52BB47A7100F25C73 /* DetoxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CC34D42BB47A7100F25C73 /* DetoxUITestsLaunchTests.swift */; };
+		F8CC34E22BB4819700F25C73 /* NoteEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CC34E12BB4819700F25C73 /* NoteEditor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8CC34C52BB47A7100F25C73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8CC34AC2BB47A6F00F25C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8CC34B32BB47A6F00F25C73;
+			remoteInfo = Detox;
+		};
+		F8CC34CF2BB47A7100F25C73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8CC34AC2BB47A6F00F25C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8CC34B32BB47A6F00F25C73;
+			remoteInfo = Detox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F826D9132C06E147001702E0 /* FeaturesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesPage.swift; sourceTree = "<group>"; };
+		F826D9152C06E199001702E0 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		F83689C82BBB1B8000DE64F5 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		F85B3BF92BCFE148001A1EE0 /* NoteRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteRowView.swift; sourceTree = "<group>"; };
+		F85B3BFB2BD0356C001A1EE0 /* NotesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesData.swift; sourceTree = "<group>"; };
+		F895392A2C043CD100F6FEB6 /* WelcomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePage.swift; sourceTree = "<group>"; };
+		F8A6B6CE2BCC84650029A23C /* NoteRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteRow.swift; sourceTree = "<group>"; };
+		F8BA19272F9A2035000C7A65 /* MyNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNote.swift; sourceTree = "<group>"; };
+		F8BA19292F9A5576000C7A65 /* PLAN.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = PLAN.md; sourceTree = "<group>"; };
+		F8C6F81B2BD9152D003EE597 /* NoteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteList.swift; sourceTree = "<group>"; };
+		F8CC34B42BB47A6F00F25C73 /* Detox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Detox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8CC34B72BB47A6F00F25C73 /* DetoxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetoxApp.swift; sourceTree = "<group>"; };
+		F8CC34B92BB47A6F00F25C73 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F8CC34BB2BB47A7100F25C73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8CC34BE2BB47A7100F25C73 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F8CC34C42BB47A7100F25C73 /* DetoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DetoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8CC34C82BB47A7100F25C73 /* DetoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetoxTests.swift; sourceTree = "<group>"; };
+		F8CC34CE2BB47A7100F25C73 /* DetoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DetoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8CC34D22BB47A7100F25C73 /* DetoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetoxUITests.swift; sourceTree = "<group>"; };
+		F8CC34D42BB47A7100F25C73 /* DetoxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetoxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F8CC34E12BB4819700F25C73 /* NoteEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteEditor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8CC34B12BB47A6F00F25C73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8CC34C12BB47A7100F25C73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8CC34CB2BB47A7100F25C73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8CC34AB2BB47A6F00F25C73 = {
+			isa = PBXGroup;
+			children = (
+				F8CC34B62BB47A6F00F25C73 /* Detox */,
+				F8CC34C72BB47A7100F25C73 /* DetoxTests */,
+				F8CC34D12BB47A7100F25C73 /* DetoxUITests */,
+				F8CC34B52BB47A6F00F25C73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8CC34B52BB47A6F00F25C73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8CC34B42BB47A6F00F25C73 /* Detox.app */,
+				F8CC34C42BB47A7100F25C73 /* DetoxTests.xctest */,
+				F8CC34CE2BB47A7100F25C73 /* DetoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8CC34B62BB47A6F00F25C73 /* Detox */ = {
+			isa = PBXGroup;
+			children = (
+				F8BA19292F9A5576000C7A65 /* PLAN.md */,
+				F8BA19272F9A2035000C7A65 /* MyNote.swift */,
+				F8CC34B72BB47A6F00F25C73 /* DetoxApp.swift */,
+				F8CC34B92BB47A6F00F25C73 /* ContentView.swift */,
+				F85B3BFB2BD0356C001A1EE0 /* NotesData.swift */,
+				F8A6B6CE2BCC84650029A23C /* NoteRow.swift */,
+				F83689C82BBB1B8000DE64F5 /* TextView.swift */,
+				F85B3BF92BCFE148001A1EE0 /* NoteRowView.swift */,
+				F8C6F81B2BD9152D003EE597 /* NoteList.swift */,
+				F826D9152C06E199001702E0 /* FeatureCard.swift */,
+				F895392A2C043CD100F6FEB6 /* WelcomePage.swift */,
+				F826D9132C06E147001702E0 /* FeaturesPage.swift */,
+				F8CC34E12BB4819700F25C73 /* NoteEditor.swift */,
+				F8CC34BB2BB47A7100F25C73 /* Assets.xcassets */,
+				F8CC34BD2BB47A7100F25C73 /* Preview Content */,
+			);
+			path = Detox;
+			sourceTree = "<group>";
+		};
+		F8CC34BD2BB47A7100F25C73 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F8CC34BE2BB47A7100F25C73 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F8CC34C72BB47A7100F25C73 /* DetoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8CC34C82BB47A7100F25C73 /* DetoxTests.swift */,
+			);
+			path = DetoxTests;
+			sourceTree = "<group>";
+		};
+		F8CC34D12BB47A7100F25C73 /* DetoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F8CC34D22BB47A7100F25C73 /* DetoxUITests.swift */,
+				F8CC34D42BB47A7100F25C73 /* DetoxUITestsLaunchTests.swift */,
+			);
+			path = DetoxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8CC34B32BB47A6F00F25C73 /* Detox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8CC34D82BB47A7100F25C73 /* Build configuration list for PBXNativeTarget "Detox" */;
+			buildPhases = (
+				F8CC34B02BB47A6F00F25C73 /* Sources */,
+				F8CC34B12BB47A6F00F25C73 /* Frameworks */,
+				F8CC34B22BB47A6F00F25C73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Detox;
+			productName = Detox;
+			productReference = F8CC34B42BB47A6F00F25C73 /* Detox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8CC34C32BB47A7100F25C73 /* DetoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8CC34DB2BB47A7100F25C73 /* Build configuration list for PBXNativeTarget "DetoxTests" */;
+			buildPhases = (
+				F8CC34C02BB47A7100F25C73 /* Sources */,
+				F8CC34C12BB47A7100F25C73 /* Frameworks */,
+				F8CC34C22BB47A7100F25C73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8CC34C62BB47A7100F25C73 /* PBXTargetDependency */,
+			);
+			name = DetoxTests;
+			productName = DetoxTests;
+			productReference = F8CC34C42BB47A7100F25C73 /* DetoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F8CC34CD2BB47A7100F25C73 /* DetoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8CC34DE2BB47A7100F25C73 /* Build configuration list for PBXNativeTarget "DetoxUITests" */;
+			buildPhases = (
+				F8CC34CA2BB47A7100F25C73 /* Sources */,
+				F8CC34CB2BB47A7100F25C73 /* Frameworks */,
+				F8CC34CC2BB47A7100F25C73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8CC34D02BB47A7100F25C73 /* PBXTargetDependency */,
+			);
+			name = DetoxUITests;
+			productName = DetoxUITests;
+			productReference = F8CC34CE2BB47A7100F25C73 /* DetoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8CC34AC2BB47A6F00F25C73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					F8CC34B32BB47A6F00F25C73 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					F8CC34C32BB47A7100F25C73 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F8CC34B32BB47A6F00F25C73;
+					};
+					F8CC34CD2BB47A7100F25C73 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F8CC34B32BB47A6F00F25C73;
+					};
+				};
+			};
+			buildConfigurationList = F8CC34AF2BB47A6F00F25C73 /* Build configuration list for PBXProject "Detox" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8CC34AB2BB47A6F00F25C73;
+			productRefGroup = F8CC34B52BB47A6F00F25C73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8CC34B32BB47A6F00F25C73 /* Detox */,
+				F8CC34C32BB47A7100F25C73 /* DetoxTests */,
+				F8CC34CD2BB47A7100F25C73 /* DetoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8CC34B22BB47A6F00F25C73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BA192A2F9A5576000C7A65 /* PLAN.md in Resources */,
+				F8CC34BF2BB47A7100F25C73 /* Preview Assets.xcassets in Resources */,
+				F8CC34BC2BB47A7100F25C73 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8CC34C22BB47A7100F25C73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8CC34CC2BB47A7100F25C73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8CC34B02BB47A6F00F25C73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85B3BFA2BCFE148001A1EE0 /* NoteRowView.swift in Sources */,
+				F8A6B6CF2BCC84650029A23C /* NoteRow.swift in Sources */,
+				F8CC34BA2BB47A6F00F25C73 /* ContentView.swift in Sources */,
+				F826D9142C06E147001702E0 /* FeaturesPage.swift in Sources */,
+				F895392B2C043CD200F6FEB6 /* WelcomePage.swift in Sources */,
+				F8C6F81C2BD9152D003EE597 /* NoteList.swift in Sources */,
+				F8CC34E22BB4819700F25C73 /* NoteEditor.swift in Sources */,
+				F8BA19282F9A2035000C7A65 /* MyNote.swift in Sources */,
+				F8CC34B82BB47A6F00F25C73 /* DetoxApp.swift in Sources */,
+				F83689C92BBB1B8000DE64F5 /* TextView.swift in Sources */,
+				F85B3BFC2BD0356C001A1EE0 /* NotesData.swift in Sources */,
+				F826D9162C06E199001702E0 /* FeatureCard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8CC34C02BB47A7100F25C73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8CC34C92BB47A7100F25C73 /* DetoxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8CC34CA2BB47A7100F25C73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8CC34D32BB47A7100F25C73 /* DetoxUITests.swift in Sources */,
+				F8CC34D52BB47A7100F25C73 /* DetoxUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8CC34C62BB47A7100F25C73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8CC34B32BB47A6F00F25C73 /* Detox */;
+			targetProxy = F8CC34C52BB47A7100F25C73 /* PBXContainerItemProxy */;
+		};
+		F8CC34D02BB47A7100F25C73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8CC34B32BB47A6F00F25C73 /* Detox */;
+			targetProxy = F8CC34CF2BB47A7100F25C73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F8CC34D62BB47A7100F25C73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = XZ94GVF6ZD;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F8CC34D72BB47A7100F25C73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = XZ94GVF6ZD;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8CC34D92BB47A7100F25C73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Detox/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.lotreamaun.Detox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8CC34DA2BB47A7100F25C73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Detox/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.lotreamaun.Detox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F8CC34DC2BB47A7100F25C73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.lotreamaun.DetoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Detox.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Detox";
+			};
+			name = Debug;
+		};
+		F8CC34DD2BB47A7100F25C73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.lotreamaun.DetoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Detox.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Detox";
+			};
+			name = Release;
+		};
+		F8CC34DF2BB47A7100F25C73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.lotreamaun.DetoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Detox;
+			};
+			name = Debug;
+		};
+		F8CC34E02BB47A7100F25C73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.lotreamaun.DetoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Detox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8CC34AF2BB47A6F00F25C73 /* Build configuration list for PBXProject "Detox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8CC34D62BB47A7100F25C73 /* Debug */,
+				F8CC34D72BB47A7100F25C73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8CC34D82BB47A7100F25C73 /* Build configuration list for PBXNativeTarget "Detox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8CC34D92BB47A7100F25C73 /* Debug */,
+				F8CC34DA2BB47A7100F25C73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8CC34DB2BB47A7100F25C73 /* Build configuration list for PBXNativeTarget "DetoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8CC34DC2BB47A7100F25C73 /* Debug */,
+				F8CC34DD2BB47A7100F25C73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8CC34DE2BB47A7100F25C73 /* Build configuration list for PBXNativeTarget "DetoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8CC34DF2BB47A7100F25C73 /* Debug */,
+				F8CC34E02BB47A7100F25C73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8CC34AC2BB47A6F00F25C73 /* Project object */;
+}
