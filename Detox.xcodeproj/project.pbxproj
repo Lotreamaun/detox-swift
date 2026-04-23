@@ -16,6 +16,7 @@
 		F8A6B6CF2BCC84650029A23C /* NoteRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A6B6CE2BCC84650029A23C /* NoteRow.swift */; };
 		F8BA19282F9A2035000C7A65 /* MyNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BA19272F9A2035000C7A65 /* MyNote.swift */; };
 		F8BA192A2F9A5576000C7A65 /* PLAN.md in Resources */ = {isa = PBXBuildFile; fileRef = F8BA19292F9A5576000C7A65 /* PLAN.md */; };
+		F8BA192C2F9A679D000C7A65 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F8BA192B2F9A678F000C7A65 /* README.md */; };
 		F8C6F81C2BD9152D003EE597 /* NoteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C6F81B2BD9152D003EE597 /* NoteList.swift */; };
 		F8CC34B82BB47A6F00F25C73 /* DetoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CC34B72BB47A6F00F25C73 /* DetoxApp.swift */; };
 		F8CC34BA2BB47A6F00F25C73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CC34B92BB47A6F00F25C73 /* ContentView.swift */; };
@@ -54,6 +55,7 @@
 		F8A6B6CE2BCC84650029A23C /* NoteRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteRow.swift; sourceTree = "<group>"; };
 		F8BA19272F9A2035000C7A65 /* MyNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNote.swift; sourceTree = "<group>"; };
 		F8BA19292F9A5576000C7A65 /* PLAN.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = PLAN.md; sourceTree = "<group>"; };
+		F8BA192B2F9A678F000C7A65 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F8C6F81B2BD9152D003EE597 /* NoteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteList.swift; sourceTree = "<group>"; };
 		F8CC34B42BB47A6F00F25C73 /* Detox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Detox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8CC34B72BB47A6F00F25C73 /* DetoxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetoxApp.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 		F8CC34B62BB47A6F00F25C73 /* Detox */ = {
 			isa = PBXGroup;
 			children = (
+				F8BA192B2F9A678F000C7A65 /* README.md */,
 				F8BA19292F9A5576000C7A65 /* PLAN.md */,
 				F8BA19272F9A2035000C7A65 /* MyNote.swift */,
 				F8CC34B72BB47A6F00F25C73 /* DetoxApp.swift */,
@@ -266,6 +269,7 @@
 			files = (
 				F8BA192A2F9A5576000C7A65 /* PLAN.md in Resources */,
 				F8CC34BF2BB47A7100F25C73 /* Preview Assets.xcassets in Resources */,
+				F8BA192C2F9A679D000C7A65 /* README.md in Resources */,
 				F8CC34BC2BB47A7100F25C73 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
